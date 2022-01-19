@@ -1,0 +1,36 @@
+\\ oppgave 1 
+
+var abc =["a","b","c","d","e","f"];
+
+console.log(abc [0]);
+
+\\ oppgave 2
+
+var abc =["a","b","c","d","e","f"];
+
+console.log(abc [5]);
+
+\\oppgave 3
+function array1(){
+var sum = 0;
+for (var i = 0; i <= myList.length; i++) {
+ sum = sum + myList[i];
+} 
+  
+   return sum;
+} 
+var myList = [3, 66, 45];
+console.log(array1());
+
+
+\\oppgave 4
+
+function range(start, end) {
+
+return Array(end - start + 1).fill().map((_, idx) => start + idx)
+
+}
+
+var result = range(1, 20);
+
+console.log(result);
