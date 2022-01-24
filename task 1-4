@@ -6,22 +6,39 @@ console.log(abc [0]);
 
 \\ oppgave 2
 
-var abc =["a","b","c","d","e","f"];
-
-console.log(abc [5]);
+function lastOfArr(arr) {
+    return arr[-1];
+}
 
 \\oppgave 3
-function array1(){
+
+var mylist = [3, 66, 45];
+
 var sum = 0;
+
+var dElement = 1 ;
+
+function array1(){
+
 for (var i = 0; i <= myList.length; i++) {
  sum = sum + myList[i];
 } 
   
    return sum;
 } 
-var myList = [3, 66, 45];
-console.log(array1());
+function array2() {
 
+    for (let i = 0; i < mylist.length; i++) {
+
+        dElement *= mylist[i];        
+
+    }
+
+    return dElement;
+
+}
+console.log(array1());
+console.log(array2());
 
 \\oppgave 4
 
